@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>XIAO S3 網頁燒錄器</title>
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 100px; background-color: #f4f4f4; }
+        .box { background: white; padding: 40px; border-radius: 20px; display: inline-block; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        button { cursor: pointer; padding: 10px 20px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>🚀 XIAO S3(共陽 RGB LED)  一鍵燒錄</h1>
+        <h1>🚀 新北市泰山高中電子科陳致中老師</h1>
+        <p>請使用 Chrome 瀏覽器並連接您的開發板</p>
+        <esp-web-install-button manifest="./manifest.json">
+            <button slot="activate">開始連線並更新</button>
+        </esp-web-install-button>
+    </div>
+</body>
+</html>
